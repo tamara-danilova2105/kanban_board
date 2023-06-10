@@ -1,0 +1,14 @@
+.textarea {
+    margin-left: 28px;
+    width: 620px;
+    height: 300px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+@media all and (max-width: 500px) {
+    .textarea {
+        width: 250px;
+    }
+}

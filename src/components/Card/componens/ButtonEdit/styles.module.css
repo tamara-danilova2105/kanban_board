@@ -1,0 +1,36 @@
+.button {
+    width: 102px;
+    border: none;
+    background: inherit;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #5E6C84;
+    padding: 7px 0px;
+    margin-left: 28px;
+    text-align: center;
+    margin-top: 7px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background: #0079BF;
+}
+
+.submit {
+    width: 102px;
+    border: none;
+    background: #0079BF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 7px 0px;
+    margin-left: 28px;
+    text-align: center;
+    margin-top: 7px;
+    cursor: pointer;
+    border-radius: 5px;
+}

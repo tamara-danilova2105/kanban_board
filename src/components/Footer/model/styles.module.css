@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0067A3;
+    height: 55px;
+    padding: 0px 25px;
+}
+
+.info_task {
+    width: 333px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.info_author {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+@media all and (max-width: 500px) {
+    .footer {
+        display: none;
+    }
+}

@@ -1,0 +1,25 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    width: 134px;
+    border-radius: 5px;
+}
+
+.button {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    height: 22px;
+    border: none;
+    background: #FFFFFF;
+    margin: 3px 7px;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px 15px;
+}
+
+.button:hover {
+    background: #EBECF0;
+    transition: all 1s;
+}

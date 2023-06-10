@@ -1,0 +1,14 @@
+.task {
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 7px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}

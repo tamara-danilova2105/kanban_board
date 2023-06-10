@@ -1,0 +1,19 @@
+.image {
+    border-radius: 50%;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.svg {
+    margin-left: 6px;
+}
+
+.open {
+    margin-left: 6px;
+    transform: rotate(180deg);
+    transition: .5s transform;
+}

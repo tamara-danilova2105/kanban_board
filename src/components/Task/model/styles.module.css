@@ -1,0 +1,42 @@
+.section {
+    width: 282px;
+    height: max-content;
+    max-height: 538px;
+    background: #EBECF0;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 12px 12px 0px 19px;
+
+}
+
+.scroll {
+    overflow: scroll;
+    width: 100%;
+    height: max-content;
+    max-height: 500px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    background-color: #EBECF0;
+    border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar {
+    background-color: #EBECF0;;
+    width: 12px;
+    height: 0px;
+}
+
+.scroll::-webkit-scrollbar-corner {
+    display: none;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background: #CBCBCB;
+}
